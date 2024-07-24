@@ -38,31 +38,6 @@ savePhoto(dataURL)
 displayPhotos();
 })
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
     // Guardar la foto en localStorage
     function savePhoto(dataURL) {
         let photos = JSON.parse(localStorage.getItem('photos')) || [];
