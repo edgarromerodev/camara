@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AppFoto</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cámara</h1>
+        <div class="camera-container">
+            <div class="camera">
+                <video id="video" autoplay></video>
+                <div class="button-container">
+                    <button class="button"><i class="fas fa-camera" id="snap"></i></button>
+                    <button id="toggleCamera" class="toggle-button"><i id="cameraIcon" class="fas fa-video-slash"></i></button>
+                </div>
+
+                <div class="photo-container">
+                    <canvas id="canvas"></canvas>
+                    <img id="photo" alt="Foto tomada">
+                   </div>
+        
+
+            </div>
+
+            <div class="gallery-container">
+                <h3>Galeria</h3>
+                <div id="gallery" class="gallery">
+                
+                </div>
+    
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
